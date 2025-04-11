@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container {
+    background: linear-gradient(90deg, #00C9FF 0%, #09203F 100%);  
+    padding: 2rem;
+     border-radius: 2rem;
+     min-height: 50vh;
+     width: 40vh;
+}
+h2 {
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+button {
+    margin-top: 2rem;
+}
+#GetRate {
+    margin-top: 1rem;
+}
+p {
+    margin-top: 1rem;
+}
+
+form select,
+button,
+input {
+    width: 100% ;
+    border-radius: 0.75rem;
+}
+
+form input {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+#Symbol {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#To {
+    margin-left: 4rem;
+}
+
+#dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#img {
+    max-width: 2rem;
+}
+
+
