@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <h2>Currency Converter</h2>
+<form>
+<p>Enter Amount</p>
+<input id="Amount" value="100" type="text">
+<div id="dropdown">
+<div id="From">
+    <p>From</p>
+    <div id></div>
+   <img id="img" src="https://flagsapi.com/US/flat/64.png">
+   <select id="SelectFrom">
+     <!--<option value="USD">USD</option>
+    <option value="INR" selected>INR</option>
+    <option value="CAN">CAN</option>
+    <option value="AUS">AUD</option>
+    <option value="BAHRIN">POUND</option> -->
+   </select>
+</div>
+<i id="Symbol" class="fa-solid fa-right-left"></i>
+
+<div id="To">
+    <p>To</p>
+   <img id="img" src="https://flagsapi.com/IN/flat/64.png">
+   <select id="SelectTo">
+    <!--<option value="USD">USD</option>
+    <option value="INR" selected>INR</option>
+    <option value="CAN">CAN</option>
+    <option value="AUS">AUD</option>
+    <option value="BAHRIN">POUND</option> -->
+   </select>
+</div>
+
+</div> <!--dropdown container-->
+
+</form>
+<div id="GetRate"> 1 USD = 80INR
+    <br>
+    <!--<button id="ExhchangeButton">Get Exchange Rate</button> -->
+</div>
+<button id="ExhchangeButton">Get Exchange Rate</button>
+
+
+    </div> <!--MAIN DIV CONTAINER--> 
+
+    
+    <script src="list.js"></script>
+    <script src="first.js"></script>
+</body>
+</html>
